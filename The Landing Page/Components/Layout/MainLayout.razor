@@ -1,0 +1,55 @@
+﻿@inherits LayoutComponentBase
+
+@inject NavBarContainer container
+
+@rendermode RenderMode.InteractiveServer
+
+<div id="blazor-error-ui" data-nosnippet>
+    An unhandled error has occurred.
+    <a href="." class="reload">Reload</a>
+    <span class="dismiss">🗙</span>
+</div>
+
+<div class="page">
+    @if (!container.navBarHidden)
+    {
+        <div class="sidebar">
+            <NavMenu />
+    </div>
+    }
+
+    <main>
+        <div class="justify-content-between top-row">
+            <div class="h-100">
+                @if(container.navBarHidden) 
+                {
+                    <button class="navbar-brand h-100 p-0 ratio-1x1" @onclick="container.toggleBar">
+                        <img class="navbar-brand h-100 p-0 ratio-1x1" src="assets/icons/menuburger.png" />
+                    </button>
+                }
+            </div>
+            <div class="h-100">
+                <img class="ratio-1x1 h-100 logo" src="assets/icons/logo.png" />
+            </div>
+        </div>
+
+        <article class="content px-4">
+            @Body
+        </article>
+
+        <Footer></Footer>
+    </main>
+</div>
+
+@code {
+    protected override void OnInitialized()
+    {
+        container.OnChange += StateHasChanged;
+    }
+
+
+    public void Dispose()
+    {
+        container.OnChange -= StateHasChanged;
+    }
+}

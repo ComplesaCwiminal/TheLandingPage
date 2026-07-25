@@ -1,0 +1,27 @@
+﻿
+@rendermode InteractiveServer
+@inject NavBarContainer container
+<div class="top-row navbar navbar-dark">
+    <div class="h-100 p-0 ratio-1x1 navbar-brand">
+            <button class="navbar-brand h-100 ratio-1x1" @onclick="container.toggleBar">
+                <img class="navbar-brand p-0 ps-1 h-100 ratio-1x1" src="assets/icons/menuburger.png" />
+            </button>
+    </div>
+</div>
+
+<div class="nav-scrollable" onclick="document.querySelector('.navbar-toggler').click()">
+    <nav class="nav flex-column">
+        <div class="nav-item px-3" tabindex="0">
+            <NavLink class="nav-link" href="" Match="NavLinkMatch.All">
+                <img class="bi" aria-hidden="true" src="assets/icons/home.png" /> Home
+            </NavLink>
+        </div>
+
+        <NavItem path="git" name="Git" enabled=false/>
+
+        <NavItem path="pelican" name="Pelican" enabled=true />
+
+        <NavItem path="seerr" name="Seerr" enabled=true />
+
+    </nav>
+</div>

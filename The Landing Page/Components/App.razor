@@ -1,0 +1,37 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <base href="/" />
+
+        <link rel="stylesheet" href="@Assets["lib/bootstrap/dist/css/bootstrap.min.css"]" />
+        <link rel="stylesheet" href="@Assets["app.css"]" />
+        <link rel="stylesheet" href="@Assets["assets/font/mysteryfont.ttf"]" />
+        <link rel="stylesheet" href="@Assets["the_landing_page.styles.css"]" />
+
+        <ImportMap />
+        <link rel="icon" type="image/png" href="favicon.png" />
+        <HeadOutlet @rendermode="InteractiveServer" />
+    </head>
+
+    <body>
+        
+@*         @foreach(var item in Assets)
+        {
+            <p>@item.Url</p>
+            @if (item.Properties != null)
+            {
+                @foreach (var property in item.Properties)
+                {
+                    <sup>N: @property.Name</sup>
+                    <sup>V: @property.Value</sup>
+                }
+            }
+        } *@
+
+        <Routes @rendermode="InteractiveServer" />
+
+        <script src="_framework/blazor.web.js"></script>
+    </body>
+</html>

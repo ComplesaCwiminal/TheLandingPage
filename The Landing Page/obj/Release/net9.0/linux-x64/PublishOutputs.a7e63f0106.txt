@@ -1,0 +1,4 @@
+C:\Users\comple\source\repos\The Landing Page\The Landing Page\obj\Release\net9.0\linux-x64\PubTmp\Out\appsettings.Development.json
+C:\Users\comple\source\repos\The Landing Page\The Landing Page\obj\Release\net9.0\linux-x64\PubTmp\Out\appsettings.json
+C:\Users\comple\source\repos\The Landing Page\The Landing Page\obj\Release\net9.0\linux-x64\PubTmp\Out\The_Landing_Page.pdb
+C:\Users\comple\source\repos\The Landing Page\The Landing Page\obj\Release\net9.0\linux-x64\PubTmp\Out\The_Landing_Page

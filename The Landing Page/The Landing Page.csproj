@@ -1,0 +1,18 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net9.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <RootNamespace>the_landing_page</RootNamespace>
+    <AssemblyName>$(AssemblyName.Replace(' ', '_').ToLower())</AssemblyName>
+    <StartupObject>the_landing_page.Program</StartupObject>
+    <AssemblyTitle>The Landing Page</AssemblyTitle>
+    <UserSecretsId>0df462dd-c031-4fc0-ace5-459874378295</UserSecretsId>
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|AnyCPU'">
+    <Optimize>False</Optimize>
+  </PropertyGroup>
+
+</Project>

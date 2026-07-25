@@ -1,0 +1,39 @@
+﻿
+
+<div class="nav-item px-3">
+    <a class="nav-link @(enabled ? "" : "disabled")" aria-current="page" href="@domainBase">
+        <img class="bi" aria-hidden="true" src="assets/icons/@(icoPath ?? path).png" /> @(name ?? path)
+    </a>
+</div>
+
+@code {
+
+    [Parameter]
+    public required string path { get; set; }
+
+    [Parameter]
+    public string? icoPath { get; set; }
+
+    [Parameter]
+    public string? name { get; set; }
+
+    [Parameter]
+    public bool localPath { get; set; } = false;
+    [Parameter]
+    public bool enabled { get; set; } = true;
+
+
+    [Parameter]
+    public string domainBase { get; set; } = @"http:\\{0}.complecwaft.com";
+
+    protected override void OnInitialized()
+    {
+        if (!localPath)
+        {
+            domainBase = string.Format(domainBase, path);
+        } else
+        {
+            domainBase = path; // if it's local we don't need the http blah blah stuff.
+        }
+    }
+}

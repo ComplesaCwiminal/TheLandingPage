@@ -1,0 +1,50 @@
+﻿
+<a class="w-100 ratio-1x1 nav-card @(enabled ? "" : "disabled")" href="@(enabled ? domainBase : "")">
+    <img class="ratio-1x1" aria-hidden="true" src="assets/icons/@(icoPath ?? path)big.png" /> 
+    <div class="icon-descriptors">
+        <p>@(name ?? path)</p>
+        @if(!enabled)
+        {
+            <b>UNAVAILABLE</b>
+        }
+    </div>
+    <div class="description">
+        @ChildContent
+    </div>
+</a>
+
+@code {
+
+    [Parameter]
+    public RenderFragment? ChildContent { get; set; }
+
+    [Parameter]
+    public required string path { get; set; }
+
+    [Parameter]
+    public string? icoPath { get; set; }
+
+    [Parameter]
+    public string? name { get; set; }
+
+    [Parameter]
+    public bool localPath { get; set; } = false;
+    [Parameter]
+    public bool enabled { get; set; } = true;
+
+
+    [Parameter]
+    public string domainBase { get; set; } = @"http:\\{0}.complecwaft.com";
+
+    protected override void OnInitialized()
+    {
+        if (!localPath)
+        {
+            domainBase = string.Format(domainBase, path);
+        }
+        else
+        {
+            domainBase = path; // if it's local we don't need the http blah blah stuff.
+        }
+    }
+}

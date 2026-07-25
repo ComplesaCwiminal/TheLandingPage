@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 18
+VisualStudioVersion = 18.7.11925.98 stable
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "The Landing Page", "The Landing Page\The Landing Page.csproj", "{71566110-37CE-4DE0-89EF-B1FE22880E5C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{71566110-37CE-4DE0-89EF-B1FE22880E5C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{71566110-37CE-4DE0-89EF-B1FE22880E5C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{71566110-37CE-4DE0-89EF-B1FE22880E5C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{71566110-37CE-4DE0-89EF-B1FE22880E5C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {94C603BA-5D2F-41B4-B380-C74EF9B4777A}
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,53 @@
+﻿@page "/"
+@namespace the_landing_page.Pages
+@using the_landing_page.Components.Layout
+
+
+<PageTitle>Home</PageTitle>
+
+<div class="content">
+    <div class="logo-holder body-item">
+        <div class="logo-backplane">
+            <img class="logo ratio-1x1" src="assets/icons/logobig.png" />
+            <h1>CompleCwaft</h1>
+        </div>
+        <div class="dither body-item" />
+    </div>
+    <div class="flex-centered body-item">
+        <div class="info-panel flex-centered">
+            <h3>Services</h3>
+            <BigNavItem path="git" name="Git" enabled=false>
+                <p>Local Repositories for various projects from the team</p>
+            </BigNavItem>
+
+            <BigNavItem path="pelican" name="Pelican" enabled=true>
+                <p>Use Pelican to manage the various types of game servers available here</p>
+            </BigNavItem>
+
+            <BigNavItem path="seerr" name="Seerr" enabled=true> 
+                <p>Check what media is new right now, and make requests to see if it can be acquired for you.</p>
+
+                <p>Not public.</p>
+            </BigNavItem>
+        </div>
+        <div class="flex-centered info-panel">
+            <h3>Projects</h3>
+
+            <h4>Comple's projects</h4>
+            <BigNavItem path="https://github.com/ComplesaCwiminal/EIPE16-GP" name="EIPE-16" enabled=true icoPath="any" localPath="true">
+                <p>A project in logisim made by Comple simulating a 16 bit CPU complete with multi-step instructions, and more!</p>
+                <sub>(Assumed Turing complete)</sub>
+            </BigNavItem>
+            <BigNavItem path="https://github.com/ComplesaCwiminal/BedrockAPI" name="BedrockAPI" enabled=true icoPath="projects/bedrockapilogo" localPath="true">
+                <p>
+                    Bringing Concurrency like never before to <a class="colored-link" href="https://cc.tweaked"><b> CC:Tweaked</b></a>!
+                   A micro-kernel like framework designed to be a tool that can help you make anything. Comes
+                   with modules for graphics, UI, input, and more built in.</p>
+            </BigNavItem>
+
+            <h4>Other Projects</h4>
+            <p>Nothing to see here!</p>
+            <p>Soon though...</p>
+        </div>
+    </div>
+</div>

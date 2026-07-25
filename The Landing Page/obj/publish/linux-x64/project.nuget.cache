@@ -1,0 +1,16 @@
+{
+  "version": 2,
+  "dgSpecHash": "wkxsHC8YfqM=",
+  "success": true,
+  "projectFilePath": "C:\\Users\\comple\\source\\repos\\The Landing Page\\The Landing Page\\The Landing Page.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\comple\\.nuget\\packages\\microsoft.net.illink.tasks\\9.0.11\\microsoft.net.illink.tasks.9.0.11.nupkg.sha512",
+    "C:\\Users\\comple\\.nuget\\packages\\microsoft.netcore.app.ref\\9.0.11\\microsoft.netcore.app.ref.9.0.11.nupkg.sha512",
+    "C:\\Users\\comple\\.nuget\\packages\\microsoft.netcore.app.runtime.linux-x64\\9.0.11\\microsoft.netcore.app.runtime.linux-x64.9.0.11.nupkg.sha512",
+    "C:\\Users\\comple\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\9.0.11\\microsoft.windowsdesktop.app.ref.9.0.11.nupkg.sha512",
+    "C:\\Users\\comple\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\9.0.11\\microsoft.aspnetcore.app.ref.9.0.11.nupkg.sha512",
+    "C:\\Users\\comple\\.nuget\\packages\\microsoft.aspnetcore.app.runtime.linux-x64\\9.0.11\\microsoft.aspnetcore.app.runtime.linux-x64.9.0.11.nupkg.sha512",
+    "C:\\Users\\comple\\.nuget\\packages\\microsoft.netcore.app.host.linux-x64\\9.0.11\\microsoft.netcore.app.host.linux-x64.9.0.11.nupkg.sha512"
+  ],
+  "logs": []
+}
