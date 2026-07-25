@@ -21,7 +21,7 @@ namespace the_landing_page.Components
     }
     public class NavBarContainer
     {
-        public NavBarItem[] navigations = new NavBarItem[] {
+        public readonly NavBarItem[] navigations = new NavBarItem[] {
             new NavBarItem()
             {
                 path = "git",

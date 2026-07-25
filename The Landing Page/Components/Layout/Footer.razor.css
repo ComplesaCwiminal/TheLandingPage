@@ -54,6 +54,9 @@ li, li > p {
     margin-bottom: calc(var(--pixelscalar) * 2);
 }
 
+.license {
+    font-size: .45rem;
+}
 .footer-header {
     font-size: 1.4em;
     font-weight: 600;

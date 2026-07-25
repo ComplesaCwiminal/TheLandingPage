@@ -34,7 +34,7 @@ p {
     margin-bottom: 0;
 }
 
-.colored-link {
+.colored-link:visited, .colored-link:link, .colored-link > *:any-link {
     color: var(--dark-purple) !important;
     text-decoration: underline;
 }
