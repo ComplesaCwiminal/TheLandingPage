@@ -89,8 +89,10 @@ main {
     .top-row {
         border-image: url('assets/components/topbar.png') round;
         border-image-repeat: repeat;
-        border-image-slice: 2 21 6 21 fill;
-        border-image-width: 1rem 3.85rem;
+        border-image-slice: 0 21 7 20 fill;
+        border-image-width: 0rem 3.75rem 1.25rem 3.7rem;
+        padding-top: .15rem;
+        padding-bottom: .75rem;
     }
     .logo {
         display: initial;
@@ -111,6 +113,14 @@ main {
     .top-row {
         top: 0;
         z-index: 1;
+    }
+
+    div.navbar-brand {
+        padding-top: .1rem;
+        padding-bottom: .1rem;
+    }
+    .navbar-brand {
+        padding:0px;
     }
 
     .top-row.auth ::deep a:first-child {
