@@ -2,9 +2,9 @@
 @rendermode InteractiveServer
 @inject NavBarContainer container
 <div class="top-row navbar navbar-dark">
-    <div class="h-100 ratio-1x1 navbar-brand">
-            <button class="navbar-brand p-0 h-100 ratio-1x1" @onclick="container.toggleBar">
-                <img class="navbar-brand p-0 h-100 ratio-1x1" src="assets/icons/menuburger.png" />
+    <div class="h-100 navbar-brand">
+        <button class="navbar-brand m-0 p-0" @onclick="container.toggleBar">
+                <img class="navbar-brand m-0 p-0" src="assets/icons/menuburger.png" />
             </button>
     </div>
 </div>
@@ -16,12 +16,10 @@
                 <img class="bi" aria-hidden="true" src="assets/icons/home.png" /> Home
             </NavLink>
         </div>
-
-        <NavItem path="git" name="Git" enabled=false/>
-
-        <NavItem path="pelican" name="Pelican" enabled=true />
-
-        <NavItem path="seerr" name="Seerr" enabled=true />
-
+        @* Man this was annoying to write but it's much more efficient and centralized *@
+        @foreach (var navigation in container.navigations)
+        {
+            <NavItem path=@navigation.path name=@navigation.name icoPath=@navigation.icoPath localPath=@navigation.localPath enabled=@navigation.enabled />
+        }
     </nav>
 </div>

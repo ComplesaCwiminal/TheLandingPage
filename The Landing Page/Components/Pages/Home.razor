@@ -2,6 +2,7 @@
 @namespace the_landing_page.Pages
 @using the_landing_page.Components.Layout
 
+@inject NavBarContainer container
 
 <PageTitle>Home</PageTitle>
 
@@ -16,19 +17,12 @@
     <div class="flex-centered body-item">
         <div class="info-panel flex-centered">
             <h3>Services</h3>
-            <BigNavItem path="git" name="Git" enabled=false>
-                <p>Local Repositories for various projects from the team</p>
-            </BigNavItem>
-
-            <BigNavItem path="pelican" name="Pelican" enabled=true>
-                <p>Use Pelican to manage the various types of game servers available here</p>
-            </BigNavItem>
-
-            <BigNavItem path="seerr" name="Seerr" enabled=true> 
-                <p>Check what media is new right now, and make requests to see if it can be acquired for you.</p>
-
-                <p>Not public.</p>
-            </BigNavItem>
+            @foreach(var service in container.navigations)
+            {
+                <BigNavItem path=@service.path name=@service.name icoPath=@service.icoPath localPath=@service.localPath enabled=@service.enabled>
+                    @((MarkupString)service.description)
+                </BigNavItem>
+            }
         </div>
         <div class="flex-centered info-panel">
             <h3>Projects</h3>
