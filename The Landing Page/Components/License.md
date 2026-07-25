@@ -1,0 +1,1 @@
+[The Landing Page](https://github.com/ComplesaCwiminal/TheLandingPage) © 2026 by [CompleCwaft](https://www.complecwaft.com) is licensed under [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/) ![a](https://mirrors.creativecommons.org/presskit/icons/cc.svg " ") ![b](https://mirrors.creativecommons.org/presskit/icons/by.svg " ")
