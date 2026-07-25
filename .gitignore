@@ -4,5 +4,46 @@
 
 /.vs
 /Backup
-/The Landing Page/bin
-/The Landing Page/obj
+/The Landing Page/bin/*
+/The Landing Page/obj/*
+/The Landing Page/bin/Debug/net9.0/the_landing_page.dll
+/The Landing Page/bin/Debug/net9.0/the_landing_page.exe
+/The Landing Page/bin/Debug/net9.0/the_landing_page.pdb
+/The Landing Page/bin/Debug/net9.0/the_landing_page.staticwebassets.endpoints.json
+/The Landing Page/bin/Debug/net9.0/the_landing_page.staticwebassets.runtime.json
+/The Landing Page/obj/Debug/net9.0/ref/the_landing_page.dll
+/The Landing Page/obj/Debug/net9.0/refint/the_landing_page.dll
+/The Landing Page/obj/Debug/net9.0/apphost.exe
+/The Landing Page/obj/Debug/net9.0/scopedcss/projectbundle/the_landing_page.bundle.scp.css
+/The Landing Page/obj/Debug/net9.0/rbcswa.dswa.cache.json
+/The Landing Page/bin/Debug/net9.0/the_landing_page.dll
+/The Landing Page/bin/Debug/net9.0/the_landing_page.exe
+/The Landing Page/bin/Debug/net9.0/the_landing_page.pdb
+/The Landing Page/bin/Debug/net9.0/the_landing_page.staticwebassets.endpoints.json
+/The Landing Page/bin/Debug/net9.0/the_landing_page.staticwebassets.runtime.json
+/The Landing Page/obj/Debug/net9.0/compressed/nzpstxxl5e-{0}-zjgnnoxqsc-zjgnnoxqsc.gz
+/The Landing Page/obj/Debug/net9.0/compressed/rsrhewso3m-{0}-zjgnnoxqsc-zjgnnoxqsc.gz
+/The Landing Page/obj/Debug/net9.0/ref/the_landing_page.dll
+/The Landing Page/obj/Debug/net9.0/refint/the_landing_page.dll
+/The Landing Page/obj/Debug/net9.0/scopedcss/bundle/the_landing_page.styles.css
+/The Landing Page/obj/Debug/net9.0/scopedcss/Components/Layout/MainLayout.razor.rz.scp.css
+/The Landing Page/obj/Debug/net9.0/scopedcss/Components/Layout/NavMenu.razor.rz.scp.css
+/The Landing Page/obj/Debug/net9.0/scopedcss/projectbundle/the_landing_page.bundle.scp.css
+/The Landing Page/obj/Debug/net9.0/apphost.exe
+/The Landing Page/obj/Debug/net9.0/rbcswa.dswa.cache.json
+/The Landing Page/obj/Debug/net9.0/rjimswa.dswa.cache.json
+/The Landing Page/obj/Debug/net9.0/rjsmcshtml.dswa.cache.json
+/The Landing Page/obj/Debug/net9.0/rjsmrazor.dswa.cache.json
+/The Landing Page/obj/Debug/net9.0/rpswa.dswa.cache.json
+/The Landing Page/obj/Debug/net9.0/staticwebassets.build.endpoints.json
+/The Landing Page/obj/Debug/net9.0/staticwebassets.build.json
+/The Landing Page/obj/Debug/net9.0/staticwebassets.build.json.cache
+/The Landing Page/obj/Debug/net9.0/staticwebassets.development.json
+/The Landing Page/obj/Release/net9.0/The Landing Page.AssemblyInfo.cs
+/The Landing Page/obj/Release/net9.0/The Landing Page.AssemblyInfoInputs.cache
+/The Landing Page/obj/Debug/net9.0/The Landing Page.AssemblyInfo.cs
+/The Landing Page/obj/Debug/net9.0/The Landing Page.AssemblyInfoInputs.cache
+/The Landing Page/obj/Debug/net9.0/The Landing Page.csproj.FileListAbsolute.txt
+/The Landing Page/obj/Debug/net9.0/the_landing_page.dll
+/The Landing Page/obj/Debug/net9.0/the_landing_page.pdb
+/The Landing Page/Properties/PublishProfiles/FolderProfile.pubxml.user

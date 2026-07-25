@@ -15,4 +15,7 @@
     <Optimize>False</Optimize>
   </PropertyGroup>
 
+  <ItemGroup>
+  </ItemGroup>
+
 </Project>
